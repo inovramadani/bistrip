@@ -7,6 +7,7 @@ var _db
 
 module.exports = {
   connectToDB: (callback) => {
+    console.log('keys: ', keys)
     console.log('mongoURI: ', keys.mongoURI)
     mongoClient.connect(keys.mongoURI, { useNewUrlParser: true }, (err, client) => {
     	_db = client.db(dbName)
