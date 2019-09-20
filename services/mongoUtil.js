@@ -2,7 +2,7 @@ const mongodb = require('mongodb')
 const keys = require('../config/keys')
 const mongoClient = mongodb.MongoClient
 
-const dbName = 'flowngin-dev'
+const dbName = 'masjeed'
 var _db
 
 module.exports = {
