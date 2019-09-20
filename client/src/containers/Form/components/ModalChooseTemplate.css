@@ -1,0 +1,11 @@
+#modal-choose-template {
+	width: 35vw;
+}
+
+#modal-choose-template .radio-option {
+	display: block;
+}
+
+#modal-choose-template .btn-ok {
+	width: 100px;
+}

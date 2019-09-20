@@ -1,0 +1,9 @@
+.modal-confirmation .text {
+	margin: 30px 0 40px 0;
+	font-size: 18px;
+}
+
+.modal-confirmation .btn-action {
+	width: 100px;
+	margin-right: 10px;
+}

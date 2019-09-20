@@ -1,0 +1,335 @@
+.zero-margin {
+	margin: 0;
+}
+
+.create-form-page {
+	margin: 20px 8vw 10vh 8vw;
+	text-align: left;
+}
+
+.btn-form {
+	text-align: right;
+}
+
+.btn-form > .btn {
+	margin-left: 5px;
+}
+
+.collection-name-input {
+	width: 270px !important;
+}
+
+.collection-description {
+	width: 83.5% !important;
+}
+
+.collection-name-input > input {
+	height: 2rem !important;
+	margin-bottom: 5px !important;
+}
+
+.collection-name-label {
+	color: black;
+	font-size: 15px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.btn-check-collection-name {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.first-row-container {
+	position: relative;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.collection-name-container {
+	margin-top: 7px;
+}
+
+.collection-details .input-field {
+	margin: unset;
+}
+
+.collection-detail-label {
+	text-align: left;
+	display: inline-block;
+	width: 170px;
+}
+
+.collection-detail-collection-label {
+	width: 120px;
+}
+
+.btn-collection-templates {
+	margin-bottom: 5px;
+	position: absolute;
+	top: 11px;
+	right: 8px;
+}
+
+.document-fields-container {
+	margin-top: 1rem;
+}
+
+.document-fields-label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.table-form-fields {
+	border: solid 1px rgba(0,0,0,0.12);
+	border-spacing: 10px !important;
+}
+
+.table-form-fields thead, .table-form-fields th, .table-form-fields td {
+	margin: 10px;
+	padding: 2px;
+}
+
+.table-form-fields td.left {
+	margin: 5px;
+}
+
+.table-form-fields .icon-show-array-item {
+	cursor: pointer;
+}
+
+.table-form-fields .cell-array-item {
+	margin: 5px;
+	font-style: italic;
+}
+
+.table-form-fields .cell-array-item.name-field {
+	padding-left: 30px;
+	text-align: left;
+}
+
+.btn-action {
+	margin-right: 7px;
+	width: 35px;
+	padding-left: 8px;
+}
+
+.allow-attachment-container {
+	position: relative;
+	top: 15px;
+}
+
+.btn-submit-container {
+	position: relative;
+	display: block;
+}
+
+.btn-submit {
+	position: relative;
+	top: 10px;
+}
+
+.add-new-field {
+	margin: 30px 0 0 0;
+	padding: 12px;
+}
+
+.add-new-field .title {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
+
+.add-new-field input, .add-new-field select {
+	height: 2.5rem !important;
+	line-height: 2.5rem !important;
+}
+
+.add-new-field .field-input-row {
+	margin-bottom: 0;
+}
+
+.add-new-field .input-field {
+	margin-bottom: 0;
+}
+
+.add-new-field .input-field #default_value {
+	width: 90% !important;
+}
+
+.add-new-field .input-field .choose-default-value {
+	cursor: pointer;
+}
+
+#modal-edit-field {
+	width: 80vw;
+	margin-top: 30vh;
+	overflow: visible;
+}
+
+#modal-edit-field .modal-content {
+	padding: 0;
+}
+
+#modal-edit-field .modal-content .add-new-field {
+	margin-top: 0;
+}
+
+.btn-add-container {
+	text-align: center;
+	margin-top: 14.5px;
+}
+
+.btn-add-container > .btn {
+	width: 100%;
+}
+
+#modal-form-event {
+	max-height: 90vh !important;
+	top: 5% !important;
+	width: 800px;
+}
+
+#modal-form-event .modal-content {
+	padding: 24px 50px 24px 50px;
+}
+
+#modal-form-event .title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#modal-form-event .bordered-container {
+	border: solid 1px #9B9B9B;
+	border-radius: 5px;
+}
+
+#modal-form-event .event-container {
+	padding: 10px;
+}
+
+#modal-form-event .event-container .url-container {
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#modal-form-event .event-container .url-container .connected-label {
+	color: green;
+	margin-left: 42px;
+}
+
+#modal-form-event .event-container .url-container .error-label {
+	color: red;
+	margin-left: 42px;
+}
+
+#modal-form-event .event-container .url-container .textarea-url {
+	height: 110px;
+	resize: vertical;
+}
+
+#modal-form-event .event-container .url-container .btn-connect-container {
+	text-align: right;
+}
+
+#modal-form-event .event-container .parameters-container {
+	padding: 10px;
+	margin-top: 5px;
+}
+
+#modal-form-event .event-container .parameters-container .property-name {
+	/*font-weight: bold;*/
+}
+
+#modal-form-event .event-container .parameters-container .property-type {
+	font-size: 12px;
+}
+
+#modal-form-event .event-container .btn-save-api {
+	margin-top: 10px;
+	width: 90px;
+}
+
+#modal-form-event .btn-footer-modal .btn {
+	width: 100px;
+	margin-left: 10px;
+}
+
+.border-bottom {
+	border-bottom: solid 1px #9B9B9B;
+}
+
+.zero-padding {
+	padding: 0 !important;
+}
+
+#modal-edit-view {
+	max-height: 85vh !important;
+	width: 65vw;
+}
+
+#modal-edit-view .modal-content {
+	padding: 8px 24px 24px 24px;
+}
+
+#modal-edit-view .modal-content #textarea-edit-view {
+	min-height: 400px;
+	resize: none;
+	background-color: #37474f;
+	color: #ffd54f;
+	width: 100%;
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+#modal-edit-view .modal-content .edit-view-help-text {
+	max-height: 400px;
+	overflow: auto;
+}
+
+#modal-edit-view .modal-content .edit-view-help-text .text-hint {
+	margin: 0 0 5px 0;
+}
+
+#modal-edit-view .title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#modal-edit-view .btn-footer-modal {
+	text-align: right;
+	margin-top: 10px;
+}
+
+#modal-edit-view .btn-footer-modal .btn {
+	width: 100px;
+	margin-left: 10px;
+}
+
+.modal-content ul.tabs {
+	background: unset;
+}
+
+.modal-content div.active {
+	background: unset;
+}
+
+#modal-edit-form {
+	top: 6% !important;
+	width: 100vw !important;
+	height: 100vh !important;
+	max-height: unset !important;
+	bottom: 0;
+}
+
+#modal-choose-source-default-value {
+	overflow-y: visible;
+}
+
+#modal-choose-source-default-value .btn-container {
+	margin-top: 20px;
+}
+
+#modal-choose-source-default-value .btn {
+	width: 100px;
+}

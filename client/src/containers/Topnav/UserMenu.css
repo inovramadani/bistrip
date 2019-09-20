@@ -1,0 +1,17 @@
+.user-menu-container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.user-menu-container:hover {
+	background-color: #D66367;
+}
+
+#dropdown-user-menu {
+	top: 64px !important;
+	width: 190px !important;
+}
+
+.dropdown-content > li.non-hoverable:hover {
+	background-color: white !important;
+}

@@ -1,0 +1,50 @@
+.sidenav {
+	text-align: left;
+}
+
+.sidenav-trigger {
+	cursor: pointer;
+}
+
+a.subheader {
+	border-bottom: solid 1px #e0e0e0;
+}
+
+div.active {
+	background: #EE6E73;
+}
+
+div.active > li > a, div.active > li > a > i {
+	color: white !important;
+}
+
+.sublink {
+	padding-left: 20px;
+}
+
+#slide-out {
+	margin-top: 65px;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+#modal-login-message > .modal-content {
+	color: black;
+	height: 30vh;
+}
+
+#modal-login-message > .modal-content > i {
+	font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+	#slide-out {
+		margin-top: 55px;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.sidenav-trigger {
+		display: unset !important;
+	}	
+}

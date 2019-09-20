@@ -1,0 +1,50 @@
+.collection-list {
+	margin-top: 20px;
+}
+
+.collection-card {
+	height: 150px;
+	width: 150px;
+	color: white;
+	background-color: #bcaaa4;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	position: relative;
+	border-radius: 15px;
+}
+
+.collection-card .collection-name {
+	height: 80%;
+	display: block;
+	padding-top: 15px;
+	font-weight: 500;
+}
+
+.collection-card .collection-name .new-collection-icon {
+	margin-top: 15%;
+	font-size: 45px;
+	display: block;
+}
+
+.collection-card > a {
+	float: left;
+	width: 50%;
+	color: white;
+	height: 20%;
+	bottom: 0;
+	border-top: solid 2px white;
+	line-height: 1.7;
+}
+
+.collection-card .link-open {
+	background-color: #4caf50;
+	border-bottom-left-radius: 15px;
+	border-right: solid 1px white;
+}
+
+.collection-card .link-edit {
+	background-color: #f57c00;
+	border-bottom-right-radius: 15px;
+	border-left: solid 1px white;
+}

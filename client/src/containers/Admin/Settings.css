@@ -1,0 +1,17 @@
+.settings-page {
+	text-align: left;
+	margin: 20px 20px 0 20px;
+}
+
+.settings-card {
+	padding: 5px 20px 20px 20px;
+	height: 100% !important;
+}
+
+.settings-card.portal-administrator {
+	height: 285px !important;
+}
+
+.settings-card.database {
+	height: 181px !important;
+}

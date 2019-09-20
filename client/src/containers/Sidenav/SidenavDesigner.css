@@ -1,0 +1,72 @@
+.sidenav-designer {
+	margin: 20px;
+}
+
+#sidenav-designer {
+	background: unset;
+}
+
+.sidenav-designer .title {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.sidenav-designer #sidenav-item-picker {
+	height: 90vh;
+}
+
+.sidenav-designer #sidenav-item-picker .sidenav-item {
+	border: 1px solid #9e9e9e;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.sidenav-designer #sidenav-designer-preview {
+	text-align: left;
+	list-style-type: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+	height: 90vh;
+	overflow-y: auto;
+	margin: 0 50px;
+}
+
+.sidenav-designer #sidenav-designer-preview li > a, #sidenav-designer-preview li > span {
+  color: rgba(0,0,0,0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+.sidenav-designer #sidenav-designer-preview li > span.subheader {
+	border-bottom: solid 1px #e0e0e0;
+}
+
+.sidenav-designer #sidenav-designer-preview li > a > i {
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 24px 0 0;
+  width: 24px;
+  color: rgba(0,0,0,0.54);
+}
+
+.sidenav-designer #sidenav-item-properties {
+	height: 90vh;
+}
+
+.sidenav-designer #sidenav-item-properties .item-property {
+	margin-bottom: 5px;
+}
+
+.sidenav-designer #sidenav-item-properties .item-property .property-label {
+	display: inline-block;
+	width: 100px;
+}
+
+.sidenav-designer #sidenav-item-properties .item-property .property-input {
+	margin-left: 5px;
+}
